@@ -4,7 +4,12 @@
         <title>Melody Victorian Curriculum Vitae</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            h1{
+            body {
+                background-color: darksalmon;
+            }
+            .content{
+                max-width: 500px;
+                margin: auto;
                 text-align: center;
             }
             img {
@@ -12,13 +17,50 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+            .about {
+                border-style: dashed;
+                width: 300px;
+                text-align: center;
+                margin: auto;
+            }
+            .desc {
+                text-align: justify;
+                width: 300px;
+                margin: auto;
+            }
+            s{
+                text-decoration: line-through;
+                background-color: red;
+            }
+            u {
+                background-color: green;
+            }
         </style>
     </head>
     
     <body>
         <div class="content">
-            <h1>Melody Victorian Angel Johany</h1>
-            <img src="pasfoto.jpg" style="width: 50%;">
+            <h1>MELODY VICTORIAN ANGEL JOHANY</h1>
+            <img src="pasfoto.jpg" style="width: 25%;">
+            <br><br>
+            <h2 class="about">Profil Singkat</h2>
+            <br>
+            <p class="desc">
+                Saat ini saya sedang kuliah di Universitas Katolik Parahyangan di jurusan Teknik Informatika.
+                Pada jurusan ini mahasiswa <i>lebih mengutamakan praktek</i> agar dapat mempelajari lebih dalam.
+                <br>
+                Projek yang sudah pernah dikerjakan yaitu membuat website Twitter dengan MongoDB <a href="https://github.com/melodyvictorian22/Twitter">(github.com/melodyvictorian22/Twitter)
+                </a> dan projek website IMBD dengan menggunakan <i>Third-API</i> <a href="https://github.com/JodiTan/LBW-API">(github.com/JodiTan/LBW-API).</a>
+            </p>
+            <br>
+            <h2 class="about">Biodata</h2>
+            <br>
+            <p class="desc">
+                Melody lahir di tanggal 22 September 1999 <s>Jakarta</s> <u>Bandung.</u>
+            </p>
+            <br>
+            <h2 class="about">Motto Hidup</h2>
+            
         </div>
     </body>
 </html>
